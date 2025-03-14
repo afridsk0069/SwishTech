@@ -504,7 +504,7 @@ with tab1:
         suggested_questions = [
             "How can I analyze my team's defensive efficiency?",
             "What are the key metrics for evaluating player performance?",
-            "How to develop a data-driven practice plan?",
+            "How to develop a data-driven practice plan and performance?",
             "What stats best predict future player success?",
             "How to use analytics for game-time decisions?",
             "What's the impact of rest days on player performance?"
