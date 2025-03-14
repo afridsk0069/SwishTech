@@ -37,29 +37,11 @@ st.markdown("""
     .main-header {
         font-size: 2.8rem;
         font-weight: 800;
-        background: linear-gradient(135deg, #4338CA, #3B82F6);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        margin-bottom: 0px;
-        text-shadow: 0px 0px 1px rgba(67, 56, 202, 0.1);
-        position: relative;
-        z-index: 1;
-        display: inline-block;
-    }
-    
-    /* Add a subtle backup color in case the gradient doesn't render */
-    .main-header::after {
-        content: "🏀 BUZZER AI";
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
         color: #4338CA;
-        -webkit-text-fill-color: #4338CA;
-        opacity: 0.99;
-        pointer-events: none;
+        margin-bottom: 10px;
+        padding: 10px 0;
+        display: block;
+        text-align: center;
     }
     
     .sub-header {
